@@ -15,6 +15,9 @@ module.exports = {
         25: ".85",
         50: ".75",
       },
+      borderWidth: {
+        "1/2": ".5px",
+      },
       container: {
         padding: {
           DEFAULT: "1rem",

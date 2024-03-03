@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const Hero = () => {
   return (
-    <div className="hero md:pt-5 md:mt-5 mt-3 md:container mx-auto md:mb-40 mb-20">
+    <div className="hero md:pt-5 md:mt-5 mt-3 md:mb-40 mb-20">
       <Image
         src={"/images/hero-layer.svg"}
         className="md:block hidden absolute top-0 right-0 z-55 w-10/12"

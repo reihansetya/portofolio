@@ -43,7 +43,7 @@ export const Experience = () => {
   ];
 
   return (
-    <div id="experience" className="container mx-auto">
+    <div id="experience">
       <h1 className="text-center pb-10">Experience</h1>
       <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
         {dataExperience.map((exp, index) => (
