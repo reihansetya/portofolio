@@ -23,12 +23,14 @@ export default function Home() {
         <Experience
           data-aos="fade-up"
           data-aos-easing="linear"
-          data-aos-duration="1500"
+          data-aos-duration="500"
+          data-aos-once="true"
         />
         <Skills
           data-aos="fade-up"
           data-aos-easing="linear"
           data-aos-duration="500"
+          data-aos-once="true"
         />
       </Layout>
     </motion.div>

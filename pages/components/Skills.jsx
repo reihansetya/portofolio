@@ -62,8 +62,8 @@ export const Skills = ({ ...props }) => {
   };
 
   return (
-    <div {...props} id="skills">
-      <h1 className="text-center pb-10 pt-20">Skill</h1>
+    <div {...props} id="skills" className="pt-20">
+      <h1 className="text-center pb-10">Skill</h1>
       <div className="flex flex-col">
         <div className="mockup-code">
           <div className="flex">

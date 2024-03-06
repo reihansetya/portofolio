@@ -24,7 +24,7 @@ export const Navbar = () => {
     },
     {
       name: "Contact",
-      href: "/",
+      href: "/contact",
     },
   ];
 
