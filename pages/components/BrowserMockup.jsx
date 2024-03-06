@@ -35,7 +35,7 @@ export const BrowserMockup = ({ dataProject }) => {
     >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         {dataProject.map((item) => (
-          <motion.div variants={project}>
+          <motion.div key={item.id} variants={project}>
             <ImageModal
               description={item.text.description}
               idImg={item.id}
