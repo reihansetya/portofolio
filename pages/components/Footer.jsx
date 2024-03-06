@@ -40,7 +40,7 @@ export const Footer = () => {
           ))}
         </section>
         <aside>
-          <p>Copyright © 2024 - All right reserved by Reihan Setya Abida</p>
+          <p>{`Copyright © 2024 - All right reserved by Reihan Setya Abida`}</p>
         </aside>
       </div>
     </footer>
