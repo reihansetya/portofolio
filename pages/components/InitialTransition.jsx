@@ -45,7 +45,7 @@ const InitialTransition = ({ initText }) => {
   return (
     <div className="absolute inset-0 flex items-center justify-center">
       <motion.div
-        className="absolute z-50 flex items-center justify-center w-full bg-black"
+        className="absolute z-10 flex items-center justify-center w-full bg-black"
         initial="initial"
         animate="animate"
         variants={blackBox}
@@ -54,12 +54,12 @@ const InitialTransition = ({ initText }) => {
           document.body.classList.remove("overflow-hidden")
         }
       >
-        <motion.svg variants={textContainer} className="absolute z-50 flex">
+        <motion.svg variants={textContainer} className="absolute z-10 flex">
           <pattern
             id="pattern"
             patternUnits="userSpaceOnUse"
-            width={750}
-            height={800}
+            width={500}
+            height={500}
             className="text-white"
           >
             <rect className="w-full h-full fill-current" />

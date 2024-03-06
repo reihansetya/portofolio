@@ -79,7 +79,12 @@ export default function Project() {
   };
 
   return (
-    <motion.div initial="initial" animate="animate" variants={content}>
+    <motion.div
+      initial="initial"
+      animate="animate"
+      variants={content}
+      // className="relative z-10"
+    >
       <InitialTransition initText={"Reihan Project"} />
       <Layout>
         <Image
@@ -92,17 +97,17 @@ export default function Project() {
         <Image
           src={"/images/nav-project-layer.svg"}
           alt="nav project layer"
-          className="md:hidden blcok absolute top-0 right-0 z-5 w-screen"
+          className="md:hidden block absolute top-0 right-0 z-5 w-screen"
           width={500}
           height={500}
         />
-        <motion.div variants={title} className="relative mt-5">
+        <motion.div variants={title} className="relative mt-5 z-20">
           <h1 className="container pt-10 text-center">Projects</h1>
           <h4 className="text-center pt-3">
             Here are some of the projects I've worked on
           </h4>
+          <BrowserMockup dataProject={dataProject} />
         </motion.div>
-        <BrowserMockup dataProject={dataProject} />
       </Layout>
     </motion.div>
   );
