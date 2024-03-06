@@ -44,12 +44,14 @@ export const Hero = () => {
       <div className="hero md:pt-5 md:mt-5 mt-3 md:mb-40 mb-20">
         <Image
           src={"/images/hero-layer.svg"}
+          alt="hero layer"
           className="md:block hidden absolute top-0 right-0 z-55 w-10/12"
           width={500}
           height={500}
         />
         <Image
           src={"/images/nav-layer.svg"}
+          alt="hero nav layer"
           className="md:hidden blcok absolute top-0 right-0 z-55 w-screen"
           width={500}
           height={500}
@@ -61,6 +63,7 @@ export const Hero = () => {
           <div>
             <Image
               className="max-w-sm rounded-xl shadow-2xl glass-morph"
+              alt="Reihan Setya Abida"
               src={"/images/hannn2.jpg"}
               width={275}
               height={275}

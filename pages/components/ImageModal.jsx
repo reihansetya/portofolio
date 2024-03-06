@@ -1,5 +1,4 @@
 import React from "react";
-import { motion } from "framer-motion";
 
 export const ImageModal = ({ idImg, imgUrl, description }) => {
   return (

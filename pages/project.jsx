@@ -84,12 +84,14 @@ export default function Project() {
       <Layout>
         <Image
           src={"/images/hero-layer.svg"}
+          alt="hero layer"
           className="md:block hidden absolute top-0 right-0 z-5 w-10/12"
           width={500}
           height={500}
         />
         <Image
           src={"/images/nav-project-layer.svg"}
+          alt="nav project layer"
           className="md:hidden blcok absolute top-0 right-0 z-5 w-screen"
           width={500}
           height={500}
