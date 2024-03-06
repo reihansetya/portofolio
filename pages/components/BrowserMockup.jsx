@@ -3,6 +3,7 @@ import { ButtonClick } from "./ButtonClick";
 import { ImageModal } from "./ImageModal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export const BrowserMockup = ({ dataProject }) => {
   const content = {
@@ -60,7 +61,7 @@ export const BrowserMockup = ({ dataProject }) => {
                   }}
                   className="hover:contrast-50 duration-100"
                 >
-                  <img src={item.imgUrl} alt="" />
+                  <Image width={1000} height={1000} src={item.imgUrl} alt="" />
                 </a>
                 <div className="description py-3 flex flex-row justify-between gap-3">
                   <div>

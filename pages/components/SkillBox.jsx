@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export const SkillBox = ({ skills }) => {
   return (
@@ -16,9 +17,10 @@ export const SkillBox = ({ skills }) => {
           className="card pt-3 bg-base-100 shadow-xl md:w-52 w-32"
         >
           <figure className="">
-            <img
+            <Image
               src={skill.icon}
               width={75}
+              height={75}
               alt="stack"
               className="rounded-xl"
             />
