@@ -32,9 +32,9 @@ export const Footer = () => {
     <footer className="footer footer-center p-4 text-base-content">
       <div className="flex flex-col container w-full border-opacity-50">
         <div className="divider"></div>
-        <section class="flex justify-center items-center gap-7">
-          {dataSosmed.map((sosmed) => (
-            <BoxSosmed href={sosmed.href} {...sosmed}>
+        <section className="flex justify-center items-center gap-7">
+          {dataSosmed.map((sosmed, index) => (
+            <BoxSosmed key={index} href={sosmed.href} {...sosmed}>
               {sosmed.text}
             </BoxSosmed>
           ))}

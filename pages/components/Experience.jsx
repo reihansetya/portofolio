@@ -48,7 +48,7 @@ export const Experience = ({ ...props }) => {
       <h1 className="text-center pb-10">Experience</h1>
       <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
         {dataExperience.map((exp, index) => (
-          <li>
+          <li key={index}>
             <div className="timeline-middle">
               <FontAwesomeIcon
                 icon="fa-solid fa-briefcase"
@@ -66,7 +66,7 @@ export const Experience = ({ ...props }) => {
               <div className="text-lg font-black">{exp.company}</div>
               <div className="pb-5 font-base-content">{exp.role}</div>
               {exp.jobDesk.map((desk) => (
-                <div>
+                <div key={desk}>
                   <p className="md:block hidden text-sm pb-2">
                     {index % 2 === 0 ? `${desk}  ●` : `●  ${desk}`}
                   </p>

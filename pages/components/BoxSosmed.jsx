@@ -10,7 +10,7 @@ export const BoxSosmed = ({ href, background, children, ...props }) => {
     >
       <FontAwesomeIcon {...props} />
 
-      <span class="pointer-events-none absolute opacity-0 group-hover:opacity-100 group-hover:text-gray-700 group-hover:text-sm group-hover:-translate-y-10 duration-700">
+      <span className="pointer-events-none absolute opacity-0 group-hover:opacity-100 group-hover:text-gray-700 group-hover:text-sm group-hover:-translate-y-10 duration-700">
         {children}
       </span>
     </a>

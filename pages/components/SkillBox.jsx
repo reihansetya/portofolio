@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 import { motion } from "framer-motion";
 
 export const SkillBox = ({ skills }) => {
@@ -7,6 +6,7 @@ export const SkillBox = ({ skills }) => {
     <div className="flex flex-wrap gap-5 justify-around">
       {skills.map((skill, index) => (
         <motion.div
+          key={index}
           whileHover={{
             scale: 1.1,
             transition: { duration: 0.25 },
