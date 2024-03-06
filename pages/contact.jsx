@@ -1,6 +1,4 @@
-import React, { useRef, useState } from "react";
-
-import { useEffect } from "react";
+import React, { useRef, useState, useEffect } from "react";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -8,7 +6,7 @@ import { Layout } from "./components/Layout";
 import Image from "next/image";
 import emailjs from "@emailjs/browser";
 
-const contact = () => {
+const Contact = () => {
   const form = useRef();
   const [isSuccess, setIsSuccess] = useState(false);
 
@@ -43,12 +41,14 @@ const contact = () => {
     <Layout>
       <Image
         src={"/images/hero-layer.svg"}
+        alt="hero layer"
         className="md:block hidden absolute top-0 right-0 z-5 w-10/12"
         width={500}
         height={500}
       />
       <Image
         src={"/images/nav-project-layer.svg"}
+        alt="nav contact layer"
         className="md:hidden blcok absolute top-0 right-0 z-5 w-screen"
         width={500}
         height={500}
@@ -117,4 +117,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;
