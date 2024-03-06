@@ -2,7 +2,7 @@ import { createContext, useState } from "react";
 
 export const ActiveNavContext = createContext();
 
-export const ActiveNavContextProvider = ({ children }) => {
+const ActiveNavContextProvider = ({ children }) => {
   const [activeIndex, setActiveIndex] = useState("");
 
   return (
@@ -11,3 +11,5 @@ export const ActiveNavContextProvider = ({ children }) => {
     </ActiveNavContext.Provider>
   );
 };
+
+export default ActiveNavContextProvider;

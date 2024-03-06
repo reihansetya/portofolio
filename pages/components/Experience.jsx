@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { data } from "autoprefixer";
 
-export const Experience = ({ ...props }) => {
+const Experience = ({ ...props }) => {
   const dataExperience = [
     {
       year: "2023",
@@ -81,3 +81,5 @@ export const Experience = ({ ...props }) => {
     </div>
   );
 };
+
+export default Experience;

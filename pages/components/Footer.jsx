@@ -1,7 +1,7 @@
 import React from "react";
 import { BoxSosmed } from "./BoxSosmed";
 
-export const Footer = () => {
+const Footer = () => {
   const dataSosmed = [
     {
       icon: "fa-brands fa-instagram",
@@ -46,3 +46,5 @@ export const Footer = () => {
     </footer>
   );
 };
+
+export default Footer;

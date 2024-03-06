@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export const BoxSosmed = ({ href, background, children, ...props }) => {
+const BoxSosmed = ({ href, background, children, ...props }) => {
   return (
     <a
       href={href}
@@ -16,3 +16,5 @@ export const BoxSosmed = ({ href, background, children, ...props }) => {
     </a>
   );
 };
+
+export default BoxSosmed;

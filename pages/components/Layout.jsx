@@ -3,7 +3,7 @@ import { Navbar } from "./Navbar";
 import { Footer } from "./Footer";
 import Head from "next/head";
 
-export const Layout = ({ children }) => {
+const Layout = ({ children }) => {
   return (
     <html lang="en">
       <Head>
@@ -27,3 +27,5 @@ export const Layout = ({ children }) => {
     </html>
   );
 };
+
+export default Layout;

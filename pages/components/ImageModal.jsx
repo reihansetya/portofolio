@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-export const ImageModal = ({ idImg, imgUrl, description }) => {
+const ImageModal = ({ idImg, imgUrl, description }) => {
   return (
     <dialog id={idImg} className="modal">
       <div className="modal-box md:w-3/5 w-11/12 max-w-5xl ">
@@ -14,3 +14,5 @@ export const ImageModal = ({ idImg, imgUrl, description }) => {
     </dialog>
   );
 };
+
+export default ImageModal;

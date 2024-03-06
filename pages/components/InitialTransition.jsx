@@ -41,7 +41,7 @@ const text = {
   },
 };
 
-export const InitialTransition = ({ initText }) => {
+const InitialTransition = ({ initText }) => {
   return (
     <div className="absolute inset-0 flex items-center justify-center">
       <motion.div
@@ -82,3 +82,5 @@ export const InitialTransition = ({ initText }) => {
     </div>
   );
 };
+
+export default InitialTransition;

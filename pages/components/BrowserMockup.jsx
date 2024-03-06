@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-export const BrowserMockup = ({ dataProject }) => {
+const BrowserMockup = ({ dataProject }) => {
   const content = {
     animate: {
       transition: { staggerChildren: 0.1, delayChildren: 1.4 },
@@ -94,3 +94,5 @@ export const BrowserMockup = ({ dataProject }) => {
     </motion.div>
   );
 };
+
+export default BrowserMockup;

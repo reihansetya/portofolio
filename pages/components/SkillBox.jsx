@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-export const SkillBox = ({ skills }) => {
+const SkillBox = ({ skills }) => {
   return (
     <div className="flex flex-wrap gap-5 justify-around">
       {skills.map((skill, index) => (
@@ -36,3 +36,5 @@ export const SkillBox = ({ skills }) => {
     </div>
   );
 };
+
+export default SkillBox;

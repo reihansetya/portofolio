@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { motion } from "framer-motion";
 
-export const Hero = () => {
+const Hero = () => {
   const content = {
     animate: {
       transition: { staggerChildren: 0.1, delayChildren: 1.4 },
@@ -93,3 +93,5 @@ export const Hero = () => {
     </motion.div>
   );
 };
+
+export default Hero;

@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import { ActiveNavContext } from "../context/ActiveNavContext";
 
-export const Navbar = () => {
+const Navbar = () => {
   const TOP_OFFSET = 50;
   const [showBackground, setShowBackground] = useState(false);
   const { activeIndex, setActiveIndex } = useContext(ActiveNavContext);
@@ -71,3 +71,5 @@ export const Navbar = () => {
     </div>
   );
 };
+
+export default Navbar;

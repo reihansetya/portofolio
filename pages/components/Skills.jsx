@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { SkillCategory } from "./SkillCategory";
 import { useState } from "react";
 
-export const Skills = ({ ...props }) => {
+const Skills = ({ ...props }) => {
   const dataSkill = {
     categories: [
       {
@@ -95,3 +95,5 @@ export const Skills = ({ ...props }) => {
     </div>
   );
 };
+
+export default Skills;
