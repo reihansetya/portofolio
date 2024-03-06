@@ -12,6 +12,8 @@ import {
   faLinkedinIn,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+import { AnimatePresence } from "framer-motion";
+import { ActiveNavContextProvider } from "./context/ActiveNavContext";
 
 library.add(
   fas,
@@ -23,12 +25,18 @@ library.add(
   faInstagram,
   faEnvelope
 );
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps, router }) {
   const [isClient, setisClient] = useState(false);
   useEffect(() => {
     setisClient(true);
   }, []);
-  return <>{isClient && <Component {...pageProps} />}</>;
+  return (
+    <AnimatePresence>
+      <ActiveNavContextProvider>
+        {isClient && <Component key={pageProps.route} {...pageProps} />}
+      </ActiveNavContextProvider>
+    </AnimatePresence>
+  );
 }
 
 export default MyApp;

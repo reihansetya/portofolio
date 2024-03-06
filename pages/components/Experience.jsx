@@ -1,7 +1,8 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { data } from "autoprefixer";
 
-export const Experience = () => {
+export const Experience = ({ ...props }) => {
   const dataExperience = [
     {
       year: "2023",
@@ -43,7 +44,7 @@ export const Experience = () => {
   ];
 
   return (
-    <div id="experience">
+    <div {...props} id="experience">
       <h1 className="text-center pb-10">Experience</h1>
       <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
         {dataExperience.map((exp, index) => (
