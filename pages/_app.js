@@ -13,7 +13,7 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import { AnimatePresence } from "framer-motion";
-import { ActiveNavContextProvider } from "./context/ActiveNavContext";
+import ActiveNavContextProvider from "./context/ActiveNavContext";
 
 library.add(
   fas,

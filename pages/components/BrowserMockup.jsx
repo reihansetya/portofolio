@@ -1,6 +1,6 @@
 import React from "react";
-import { ButtonClick } from "./ButtonClick";
-import { ImageModal } from "./ImageModal";
+import ButtonClick from "./ButtonClick";
+import ImageModal from "./ImageModal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { motion } from "framer-motion";
 import Image from "next/image";

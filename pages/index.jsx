@@ -1,8 +1,8 @@
-import { Experience } from "./components/Experience";
-import { Hero } from "./components/Hero";
-import { InitialTransition } from "./components/InitialTransition";
-import { Layout } from "./components/Layout";
-import { Skills } from "./components/Skills";
+import Experience from "./components/Experience";
+import Hero from "./components/Hero";
+import InitialTransition from "./components/InitialTransition";
+import Layout from "./components/Layout";
+import Skills from "./components/Skills";
 import { motion } from "framer-motion";
 
 import { useEffect } from "react";

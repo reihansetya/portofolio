@@ -1,7 +1,7 @@
 import React from "react";
-import { SkillBox } from "./SkillBox";
+import SkillBox from "./SkillBox";
 import { motion, AnimatePresence } from "framer-motion";
-import { SkillCategory } from "./SkillCategory";
+import SkillCategory from "./SkillCategory";
 import { useState } from "react";
 
 const Skills = ({ ...props }) => {

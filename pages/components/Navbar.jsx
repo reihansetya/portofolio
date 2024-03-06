@@ -12,7 +12,7 @@ const Navbar = () => {
   const dataNav = [
     {
       name: "Reihan",
-      href: "/#",
+      href: "/",
     },
     {
       name: "Skill",

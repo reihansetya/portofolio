@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ButtonClick } from "./ButtonClick";
+import ButtonClick from "./ButtonClick";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { motion } from "framer-motion";

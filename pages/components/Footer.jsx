@@ -1,5 +1,5 @@
 import React from "react";
-import { BoxSosmed } from "./BoxSosmed";
+import BoxSosmed from "./BoxSosmed";
 
 const Footer = () => {
   const dataSosmed = [

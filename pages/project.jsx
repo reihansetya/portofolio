@@ -1,6 +1,6 @@
-import { BrowserMockup } from "./components/BrowserMockup";
-import { InitialTransition } from "./components/InitialTransition";
-import { Layout } from "./components/Layout";
+import BrowserMockup from "./components/BrowserMockup";
+import InitialTransition from "./components/InitialTransition";
+import Layout from "./components/Layout";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
