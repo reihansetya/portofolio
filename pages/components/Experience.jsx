@@ -5,6 +5,17 @@ import { data } from "autoprefixer";
 const Experience = ({ ...props }) => {
   const dataExperience = [
     {
+      year: "2024 - Current",
+      company: "PT Saasten Technologies",
+      role: "Salesforce Developer",
+      jobDesk: [
+        "Developed solutions using Apex Triggers, Apex Classes, LWC, Flow Builder and SOQL to meet business requirements.",
+        "Built system integrations using REST API Inbound and Outbound for seamless data exchange.",
+        "Integrated Marketing Cloud data with Salesforce CRM for reporting and customer data management purposes. Designed Journey Builder and automated marketing campaigns such as WhatsApp Blasting and Email Marketing with Salesforce Marketing Cloud.",
+        "Communication Cloud & OmniStudio: Designed and developed end-to-end guided interactions using OmniScripts, DataMappers (Extract/Load/Transform), and Integration Procedures to streamline complex telco business processes",
+      ],
+    },
+    {
       year: "2023",
       company: "PT BANK BTPN TBK",
       role: "Website Developer",
@@ -68,7 +79,8 @@ const Experience = ({ ...props }) => {
               {exp.jobDesk.map((desk) => (
                 <div key={desk}>
                   <p className="md:block hidden text-sm pb-2">
-                    {index % 2 === 0 ? `${desk}  ●` : `●  ${desk}`}
+
+                    {index % 2 === 0 ? `●  ${desk}` : `●  ${desk}`}
                   </p>
                   <p className="md:hidden block text-sm pb-2">● {desk}</p>
                 </div>

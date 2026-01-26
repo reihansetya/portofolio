@@ -8,23 +8,32 @@ const Skills = ({ ...props }) => {
   const dataSkill = {
     categories: [
       {
+        name: "Salesforce",
+        skills: [
+          { name: "Lightning Web Component (LWC)", year: "1", icon: "/images/lwc-logo.png" },
+          { name: "Flow", year: "2", icon: "/images/flow-logo.png" },
+          { name: "Apex", year: "2", icon: "/images/apex-logo.png" },
+          { name: "OmniStudio", year: "1", icon: "/images/omnistudio-logo.png" },
+        ],
+      },
+      {
         name: "Front End",
         skills: [
-          { name: "Javascript", year: "1", icon: "/images/icon-js.png" },
-          { name: "HTML", year: "2", icon: "/images/icon-html.png" },
-          { name: "Bootstrap", year: "2", icon: "/images/icon-bootstrap.png" },
+          { name: "Javascript", year: "2", icon: "/images/icon-js.png" },
+          { name: "HTML", year: "3", icon: "/images/icon-html.png" },
+          { name: "Bootstrap", year: "3", icon: "/images/icon-bootstrap.png" },
           {
             name: "Tailwind",
-            year: "research",
+            year: "1",
             icon: "/images/icon-tailwind.png",
           },
-          { name: "React", year: "research", icon: "/images/icon-react.png" },
+          { name: "React", year: "1", icon: "/images/icon-react.png" },
         ],
       },
       {
         name: "Back End",
         skills: [
-          { name: "PHP", year: "1", icon: "/images/icon-php.png" },
+          { name: "PHP", year: "2", icon: "/images/icon-php.png" },
           {
             name: "Codeigniter",
             year: "1",
@@ -32,7 +41,7 @@ const Skills = ({ ...props }) => {
           },
           {
             name: "Laravel",
-            year: "research",
+            year: "1",
             icon: "/images/icon-laravel.png",
           },
         ],
@@ -40,11 +49,16 @@ const Skills = ({ ...props }) => {
       {
         name: "Database",
         skills: [
-          { name: "MySQL", year: "1", icon: "/images/icon-mysql.png" },
+          { name: "MySQL", year: "2", icon: "/images/icon-mysql.png" },
           {
             name: "MongoDB",
-            year: "research",
+            year: "1",
             icon: "/images/icon-mongodb.png",
+          },
+          {
+            name: "SOQL",
+            year: "2",
+            icon: "/images/soql-logo.png",
           },
         ],
       },

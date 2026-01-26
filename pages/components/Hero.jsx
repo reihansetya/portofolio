@@ -80,7 +80,7 @@ const Hero = () => {
             <div className="md:text-left text-center">
               <ButtonClick
                 className={"btn-secondary text-white"}
-                href={`https://drive.google.com/file/d/1ehgOkrscjOU0un6550__ZAK17wWOCEre/view?usp=sharing`}
+                href={`https://drive.google.com/file/d/17SbQMfApoTdasuA-FokGEy2_YqYletIy/view?usp=sharing`}
                 target={"_blank"}
               >
                 <FontAwesomeIcon icon="fa-solid fa-download" />

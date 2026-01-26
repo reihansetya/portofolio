@@ -8,9 +8,22 @@ export default function Project() {
   const dataProject = [
     {
       id: "my_modal_1",
+      imgUrl: "/images/bucketbylisa-project.png",
+      repo: "https://github.com/reihansetya/bucket-by-lisa-next",
+      url: "https://bucketbylisa.vercel.app/",
+      text: {
+        year: "2024",
+        title: "Bucket by Lisa (Revamp)",
+        description:
+          "Katalog Bucket By Lisa Revamp merupakan aplikasi web yang dibangun menggunakan teknologi Next JS dan Supabase. dengan Front End Yang lebih menarik dan User Friendly. Bertujuan untuk memajukan UMKM agar customer dapat mencari dan membeli produk-produk yang sesuai. Serta Admin Dashboard untuk memudahkan pengelolaan produk.",
+        category: "Web Catalogue",
+      },
+    },
+    {
+      id: "my_modal_1",
       imgUrl: "/images/project-bucket.png",
       repo: "https://github.com/reihansetya/bouquetCatalog",
-      url: "https://bucketbylisa.vercel.app/",
+      url: "https://bucketbylisa2.vercel.app//",
       text: {
         year: "2024",
         title: "Bucket by Lisa",
@@ -83,7 +96,7 @@ export default function Project() {
       initial="initial"
       animate="animate"
       variants={content}
-      // className="relative z-10"
+    // className="relative z-10"
     >
       <InitialTransition initText={"Reihan Project"} />
       <Layout>
