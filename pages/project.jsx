@@ -12,7 +12,7 @@ export default function Project() {
       repo: "https://github.com/reihansetya/bucket-by-lisa-next",
       url: "https://bucketbylisa.vercel.app/",
       text: {
-        year: "2024",
+        year: "2026",
         title: "Bucket by Lisa (Revamp)",
         description:
           "Katalog Bucket By Lisa Revamp merupakan aplikasi web yang dibangun menggunakan teknologi Next JS dan Supabase. dengan Front End Yang lebih menarik dan User Friendly. Bertujuan untuk memajukan UMKM agar customer dapat mencari dan membeli produk-produk yang sesuai. Serta Admin Dashboard untuk memudahkan pengelolaan produk.",
