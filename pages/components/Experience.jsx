@@ -9,10 +9,10 @@ const Experience = ({ ...props }) => {
       company: "PT Saasten Technologies",
       role: "Salesforce Developer",
       jobDesk: [
-        "Developed solutions using Apex Triggers, Apex Classes, LWC, Flow Builder and SOQL to meet business requirements.",
-        "Built system integrations using REST API Inbound and Outbound for seamless data exchange.",
-        "Integrated Marketing Cloud data with Salesforce CRM for reporting and customer data management purposes. Designed Journey Builder and automated marketing campaigns such as WhatsApp Blasting and Email Marketing with Salesforce Marketing Cloud.",
-        "Communication Cloud & OmniStudio: Designed and developed end-to-end guided interactions using OmniScripts, DataMappers (Extract/Load/Transform), and Integration Procedures to streamline complex telco business processes",
+        "Developed end-to-end B2B Lead-to-Order and Site Location management flows utilizing Salesforce Communication Cloud (Industries CPQ) and OmniStudio for Telin.",
+        "Developed a compliance-ready Consent Management Platform (CMP) integration for Data Privacy regulations (PDP) and built a unified customer ticketing system using Service Cloud for MMKSI (Mitsubishi).",
+        "Integrated Omni-channel automated marketing campaigns (WA, SMS, Email) and complex customer segmentation by connecting Salesforce CRM with Marketing Cloud for Auto2000 Astra.",
+        "Developed scalable Enterprise solutions leveraging Apex (Triggers/Classes), LWC, Flow Builder, CallIn/CallOut REST API integrations.",
       ],
     },
     {
@@ -79,7 +79,6 @@ const Experience = ({ ...props }) => {
               {exp.jobDesk.map((desk) => (
                 <div key={desk}>
                   <p className="md:block hidden text-sm pb-2">
-
                     {index % 2 === 0 ? `●  ${desk}` : `●  ${desk}`}
                   </p>
                   <p className="md:hidden block text-sm pb-2">● {desk}</p>
