@@ -6,6 +6,19 @@ import Image from "next/image";
 
 export default function Project() {
   const dataProject = [
+    { 
+      id: "my_modal_revenue",
+      imgUrl: "/images/rei-revenue-expense.png",
+      repo: undefined,
+      url: "https://rei-revenue-expense.vercel.app",
+      text: {
+        year: "2026",
+        title: "Revenue & Expense Tracker",
+        description:
+          "Aplikasi pelacak keuangan pribadi dengan dukungan multi-wallet (dompet digital, tunai, investasi), transfer antar wallet, dan fitur sembunyikan saldo dengan mode terang/gelap. Dilengkapi dashboard interaktif dengan grafik pengeluaran per kategori, transaksi bulanan dan harian. Terintegrasi dengan bot Telegram untuk akses jarak jauh — pengguna dapat melihat ringkasan bulanan dan mencatat pemasukan/pengeluaran langsung melalui Telegram.",
+        category: "Aplikasi Keuangan Pribadi",
+      },
+    },
     {
       id: "my_modal_1",
       imgUrl: "/images/bucketbylisa-project.png",

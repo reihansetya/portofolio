@@ -20,6 +20,9 @@ export default function Home() {
       <InitialTransition initText={"Reihan Portofolio"} />
       <Layout>
         <Hero />
+        <div className="m-5">
+          <h1>Testing</h1>
+        </div>
         <Experience
           data-aos="fade-up"
           data-aos-easing="linear"
