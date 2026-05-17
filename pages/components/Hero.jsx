@@ -71,7 +71,7 @@ const Hero = () => {
           </div>
           <div variants={title} className="md:w-3/5">
             <h1 className="md:text-5xl font-bold">Reihan Setya Abida</h1>
-            <h3 className="pt-3 font-bold ">Front End Developer</h3>
+            <h3 className="pt-3 font-bold ">Salesforce Developer | Full Stack Developer</h3>
             <p className="py-6">
               Hi! it's Reihan, I graduated from Mercu Buana University majoring
               in informatics engineering, I am eager to embark on my journey in
