@@ -9,11 +9,12 @@ export default function Project() {
   const [activeTab, setActiveTab] = useState("Web Development");
 
   const dataProject = [
-    { 
+    {
       id: "my_modal_revenue",
       imgUrl: "/images/rei-revenue-expense.png",
       repo: undefined,
       url: "https://rei-revenue-expense.vercel.app",
+      type: "Web Development",
       text: {
         year: "2026",
         title: "Revenue & Expense Tracker",
@@ -160,7 +161,7 @@ export default function Project() {
       initial="initial"
       animate="animate"
       variants={content}
-      // className="relative z-10"
+    // className="relative z-10"
     >
       <InitialTransition initText={"Reihan Project"} />
       <Layout>
@@ -188,21 +189,19 @@ export default function Project() {
           <div className="flex justify-center gap-4 mt-8">
             <button
               onClick={() => setActiveTab("Web Development")}
-              className={`btn btn-sm md:btn-md ${
-                activeTab === "Web Development"
+              className={`btn btn-sm md:btn-md ${activeTab === "Web Development"
                   ? "btn-secondary"
                   : "btn-outline btn-secondary"
-              }`}
+                }`}
             >
               Web Development
             </button>
             <button
               onClick={() => setActiveTab("Salesforce")}
-              className={`btn btn-sm md:btn-md ${
-                activeTab === "Salesforce"
+              className={`btn btn-sm md:btn-md ${activeTab === "Salesforce"
                   ? "btn-secondary"
                   : "btn-outline btn-secondary"
-              }`}
+                }`}
             >
               Salesforce
             </button>
