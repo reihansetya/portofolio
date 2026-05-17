@@ -41,16 +41,21 @@ const BrowserMockup = ({ dataProject }) => {
               description={item.text.description}
               idImg={item.id}
               imgUrl={item.imgUrl}
+              type={item.type}
             />
             <div className="mockup-browser border bg-neutral border-base-300 shadow shadow-gray-200">
               <div className="mockup-browser-toolbar">
-                <a
-                  href={item.url}
-                  className="input text-blue-500"
-                  target="_blank"
-                >
-                  {item.url}
-                </a>
+                {item.url && item.url.startsWith("http") ? (
+                  <a
+                    href={item.url}
+                    className="input text-blue-500"
+                    target="_blank"
+                  >
+                    {item.url}
+                  </a>
+                ) : (
+                  <div className="input">{item.url}</div>
+                )}
               </div>
               <div className="flex flex-col justify-center px-4 py-3 bg-base-300 ">
                 <a
@@ -61,7 +66,17 @@ const BrowserMockup = ({ dataProject }) => {
                   }}
                   className="hover:contrast-50 duration-100"
                 >
-                  <Image width={1000} height={1000} src={item.imgUrl} alt="" />
+                  <Image
+                    width={1000}
+                    height={1000}
+                    src={item.imgUrl}
+                    alt=""
+                    className={
+                      item.type === "Salesforce"
+                        ? "w-1/2 mx-auto object-contain max-h-48 bg-white rounded-lg p-2"
+                        : "w-full h-auto"
+                    }
+                  />
                 </a>
                 <div className="description py-3 flex flex-row justify-between gap-3">
                   <div>
