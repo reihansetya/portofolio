@@ -21,36 +21,13 @@ export default function N8nChat() {
         ],
         i18n: {
           en: {
-            title: 'Chat with AI 🤖',
+            title: 'ReiBot 🤖',
             subtitle: 'Tanya apa saja tentang Reihan!',
             inputPlaceholder: 'Ketik pesan...',
             getStarted: 'Mulai Chat',
             closeButtonTooltip: 'Tutup Chat',
           }
-        },
-        theme: {
-          button: {
-            backgroundColor: '#6419E6',
-            hoverBackgroundColor: '#7C3AED',
-            iconColor: '#ffffff',
-            size: 'large',
-          },
-          chatWindow: {
-            backgroundColor: '#1D232A',
-            textColor: '#A6ADBA',
-            inputBackgroundColor: '#2A323C',
-            inputTextColor: '#A6ADBA',
-            inputBorderColor: '#3D4451',
-          },
-          userMessage: {
-            backgroundColor: '#6419E6',
-            textColor: '#ffffff',
-          },
-          botMessage: {
-            backgroundColor: '#2A323C',
-            textColor: '#A6ADBA',
-          },
-        },
+        }
       });
     `;
         document.body.appendChild(script);

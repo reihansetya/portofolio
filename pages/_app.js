@@ -14,6 +14,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { AnimatePresence } from "framer-motion";
 import ActiveNavContextProvider from "./context/ActiveNavContext";
+import N8nChat from "./components/N8nChat";
 
 library.add(
   fas,
@@ -34,6 +35,7 @@ function MyApp({ Component, pageProps, router }) {
     <AnimatePresence>
       <ActiveNavContextProvider>
         {isClient && <Component key={pageProps.route} {...pageProps} />}
+        {isClient && <N8nChat />}
       </ActiveNavContextProvider>
     </AnimatePresence>
   );

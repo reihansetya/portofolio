@@ -24,7 +24,6 @@
   h6 p {
     @apply text-base;
   }
-
 }
 
 @tailwind components;
@@ -40,7 +39,7 @@ html {
 
 /* styles/globals.css */
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .glass-morph {
@@ -50,4 +49,24 @@ body {
   -webkit-backdrop-filter: blur(12px);
   /* border: 1px solid rgba(255, 255, 255, 0.046); */
   transition: 0.5s all;
+}
+
+/* n8n Chat Widget Overrides */
+.chat-window {
+  --chat--input--background: #ffffff !important;
+  --chat--input--text-color: #000000 !important;
+}
+
+.chat-window-wrapper .chat-window-toggle {
+  background-color: #6419e6 !important;
+  color: #ffffff !important;
+}
+
+.chat-window-wrapper .chat-window-toggle:hover {
+  background-color: #7c3aed !important;
+}
+
+.chat-layout .chat-header {
+  background-color: #6419e6 !important;
+  color: #ffffff !important;
 }
