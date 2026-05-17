@@ -4,11 +4,10 @@ import { motion } from "framer-motion";
 const SkillCategory = ({ category, onSelect, isActive }) => {
   return (
     <button
-      className={`w-4/12 md:text-3xl font-bold  border-b-orange-50 border-b-1/2 rounded-xl md:text-center md:px-0 px-3 pb-2 ${
-        isActive
-          ? "text-base-content transition-all duration-200"
-          : "text-gray-400"
-      }`}
+      className={`flex-1 text-xs md:text-lg font-bold border-b-2 rounded-none text-center py-2 md:py-3 px-1 truncate ${isActive
+        ? "text-base-content border-b-secondary transition-all duration-200"
+        : "text-gray-400 border-b-transparent"
+        }`}
       onClick={() => onSelect(category)}
     >
       {category}

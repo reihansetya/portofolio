@@ -60,11 +60,11 @@ const Hero = () => {
           variants={title}
           className="hero-content flex-col lg:flex-row-reverse"
         >
-          <div>
+          <div className="overflow-hidden rounded-xl shadow-2xl glass-morph">
             <Image
-              className="max-w-sm rounded-xl shadow-2xl glass-morph"
+              className="max-w-sm scale-150 object-cover"
               alt="Reihan Setya Abida"
-              src={"/images/hannn2.jpg"}
+              src={"/images/hero-profile.jpeg"}
               width={275}
               height={275}
             />

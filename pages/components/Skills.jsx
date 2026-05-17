@@ -80,7 +80,7 @@ const Skills = ({ ...props }) => {
       <h1 className="text-center pb-10">Skill</h1>
       <div className="flex flex-col">
         <div className="mockup-code">
-          <div className="flex">
+          <div className="flex overflow-x-auto">
             {dataSkill.categories.map((item) => (
               <SkillCategory
                 key={item.name}
@@ -90,7 +90,7 @@ const Skills = ({ ...props }) => {
               />
             ))}
           </div>
-          <div className="flex p-5 bg-base-300">
+          <div className="p-3 md:p-5 bg-base-300">
             <AnimatePresence mode="wait">
               <motion.div
                 key={selectedCategory.name}
