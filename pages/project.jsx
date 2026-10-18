@@ -94,6 +94,19 @@ export default function Project() {
       },
     },
     {
+      id: "modal_foodex",
+      imgUrl: "/images/foodex.png",
+      repo: undefined,
+      url: "PT Foodex Inti Ingredients",
+      type: "Salesforce",
+      text: {
+        title: "Foodex",
+        description:
+          "Membangun siklus Sample Request end-to-end untuk sampling bahan makanan (BPS & NPDR) di Sales Cloud, mulai dari Screen Flow Lead/Opportunity, Sample Offer, feedback customer, hingga evaluasi sampel dan penutupan Opportunity. Dilengkapi otomatisasi pembuatan Product & Opportunity Product dengan Trigger Actions Framework (TAF), konversi Lead yang membawa Sample Request, tool import/export CSV berbasis LWC, check-in/check-out Sales Activity dengan geolokasi, serta report & dashboard untuk tim Sales, R&D, dan PPIC.",
+        category: "Salesforce - Sales Cloud",
+      },
+    },
+    {
       id: "modal_auto2000",
       imgUrl: "/images/astra.png",
       repo: undefined,

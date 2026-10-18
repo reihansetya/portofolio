@@ -12,6 +12,7 @@ const Experience = ({ ...props }) => {
         "Developed end-to-end B2B Lead-to-Order and Site Location management flows utilizing Salesforce Communication Cloud (Industries CPQ) and OmniStudio for Telin.",
         "Developed a compliance-ready Consent Management Platform (CMP) integration for Data Privacy regulations (PDP) and built a unified customer ticketing system using Service Cloud for MMKSI (Mitsubishi).",
         "Integrated Omni-channel automated marketing campaigns (WA, SMS, Email) and complex customer segmentation by connecting Salesforce CRM with Marketing Cloud for Auto2000 Astra.",
+        "Developed an end-to-end Sample Request lifecycle (BPS & NPDR) on Sales Cloud for PT Foodex Inti Ingredients, including Trigger Actions Framework (TAF) automation for Product/Opportunity Product creation, Lead conversion carry-over, LWC CSV import/export tools, a geolocation check-in/check-out LWC, and Sales, R&D, and PPIC dashboards.",
         "Developed scalable Enterprise solutions leveraging Apex (Triggers/Classes), LWC, Flow Builder, CallIn/CallOut REST API integrations.",
       ],
     },
