@@ -95,7 +95,7 @@ export default function Project() {
     },
     {
       id: "modal_foodex",
-      imgUrl: "/images/foodex.svg",
+      imgUrl: "/images/foodex.png",
       repo: undefined,
       url: "PT Foodex Inti Ingredients",
       type: "Salesforce",
